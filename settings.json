@@ -1,0 +1,138 @@
+{
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.inlineSuggest.enabled": true,
+  "editor.lineHeight": 24,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "extensions.ignoreRecommendations": true,
+  "files.trimTrailingWhitespace": true,
+  "explorer.compactFolders": false,
+  "editor.fontSize": 13.6,
+  "javascript.suggest.autoImports": true,
+  // "github.copilot.enable": {
+  //   "*": true,
+  //   "plaintext": true,
+  //   "markdown": true,
+  //   "scminput": false,
+  //   "yaml": false,
+  //   "c": true
+  // },
+  "git.enableSmartCommit": true,
+  "window.titleBarStyle": "native",
+  // "editor.scrollbar.vertical": "hidden",
+  "editor.renderLineHighlight": "gutter",
+  "workbench.statusBar.visible": true,
+  "yaml.customTags": [
+    "!And",
+    "!And sequence",
+    "!If",
+    "!If sequence",
+    "!Not",
+    "!Not sequence",
+    "!Equals",
+    "!Equals sequence",
+    "!Or",
+    "!Or sequence",
+    "!FindInMap",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Join",
+    "!Join sequence",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!Sub sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!ImportValue sequence",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Split sequence"
+  ],
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+    "tailwind.config.js": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*"
+  },
+  "git.openRepositoryInParentFolders": "always",
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+  },
+  "[python]": {
+    // "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "mssql.connections": [],
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "ms-mssql.mssql"
+  },
+  "mssql.objectExplorer.groupBySchema": false,
+  "cmake.configureOnOpen": false,
+  "git.autofetch": true,
+  "workbench.colorTheme": "Hack The Box",
+  "codeQL.telemetry.enableTelemetry": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "jupyter.askForKernelRestart": false,
+  "notebook.formatOnSave.enabled": true,
+  "[plaintext]": {
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "[lsp]": {
+    "editor.defaultFormatter": "guilhermetopanotti.lsp-formatter"
+  },
+  "editor.minimap.enabled": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "redhat.telemetry.enabled": true,
+  "codeium.enableConfig": {
+    "*": true,
+    "properties": true,
+    "lsp": true,
+    "plaintext": true
+  },
+  "symbols.hidesExplorerArrows": false,
+  "files.associations": {
+    "*.txt": "lsp",
+    // ".env.*": "dotenv",
+    ".prettierrc": "json",
+    "*.css": "css"
+  },
+  "prisma.showPrismaDataPlatformNotification": false,
+  "workbench.productIconTheme": "fluent-icons",
+  "window.customTitleBarVisibility": "never"
+}
