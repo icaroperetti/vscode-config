@@ -2,6 +2,7 @@
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
+  "typescript.inlayHints.parameterNames.enabled": "all",
   "workbench.startupEditor": "newUntitledFile",
   "editor.inlineSuggest.enabled": true,
   "editor.lineHeight": 24,
