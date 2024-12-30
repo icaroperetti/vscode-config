@@ -11,15 +11,14 @@
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
   "files.insertFinalNewline": true,
-  "editor.rulers": [
-    80,
-    120
-  ],
+  "editor.rulers": [80, 120],
   "extensions.ignoreRecommendations": true,
   "files.trimTrailingWhitespace": true,
   "explorer.compactFolders": false,
-  "editor.fontSize": 14.3,
+  "editor.fontSize": 13.6,
+  "editor.formatOnSave": true,
   "javascript.suggest.autoImports": true,
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
   // "github.copilot.enable": {
   //   "*": true,
   //   "plaintext": true,
@@ -30,7 +29,6 @@
   // },
   "git.enableSmartCommit": true,
   "window.titleBarStyle": "native",
-  // "editor.scrollbar.vertical": "hidden",
   "editor.renderLineHighlight": "gutter",
   "workbench.statusBar.visible": true,
   "yaml.customTags": [
@@ -70,35 +68,23 @@
   },
   "git.openRepositoryInParentFolders": "always",
   "files.autoSave": "afterDelay",
-  // "editor.formatOnSave": true,
+
   "[c]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
-  "editor.codeActionsOnSave": {
-    // "source.fixAll.eslint": "explicit",
-  },
+ "editor.codeActionsOnSave": {
+  "source.fixAll.eslint": "explicit"
+},
   "[python]": {
-    // "editor.formatOnType": true,
-    "editor.formatOnSave": true,
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
   "[typescript]": {
-    // "editor.defaultFormatter": "vscode.typescript-language-features"
-    "editor.defaultFormatter": "biomejs.biome",
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "quickfix.biome": "explicit",
-      "source.organizeImports.biome": "explicit"
-    }
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "mssql.connections": [],
   "javascript.updateImportsOnFileMove.enabled": "never",
   "[typescriptreact]": {
-    "editor.defaultFormatter": "biomejs.biome",
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "quickfix.biome": "explicit"
-    }
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[sql]": {
     "editor.defaultFormatter": "ms-mssql.mssql"
@@ -114,9 +100,6 @@
   "[plaintext]": {
     "editor.unicodeHighlight.ambiguousCharacters": false,
     "editor.unicodeHighlight.invisibleCharacters": false
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
@@ -142,6 +125,7 @@
   "symbols.hidesExplorerArrows": false,
   "files.associations": {
     "*.txt": "lsp",
+    // ".env.*": "dotenv",
     ".prettierrc": "json",
     "*.css": "css"
   },
@@ -150,13 +134,8 @@
   "window.customTitleBarVisibility": "never",
   "terminal.integrated.env.windows": {},
   "console-ninja.featureSet": "Community",
-  "console-ninja.toolsToEnableSupportAutomaticallyFor": {
-    "live-server-extension": true,
-    "live-preview-extension": true
-  },
-  "editor.formatOnPaste": false,
-  "editor.formatOnSave": true,
-  "editor.formatOnType": false,
-  "githubPullRequests.createOnPublishBranch": "never",
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "python.createEnvironment.trigger": "off",
+  "jestrunner.codeLensSelector": "**/*.{test,spec,int-spec}.{js,jsx,ts,tsx}",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "eslint.format.enable": true
 }
