@@ -18,17 +18,8 @@
   "editor.fontSize": 14.5,
   "editor.fontWeight": "normal",
   "javascript.suggest.autoImports": true,
-  // "github.copilot.enable": {
-  //   "*": true,
-  //   "plaintext": true,
-  //   "markdown": true,
-  //   "scminput": false,
-  //   "yaml": false,
-  //   "c": true
-  // },
   "git.enableSmartCommit": true,
   "window.titleBarStyle": "native",
-  // "editor.scrollbar.vertical": "hidden",
   "editor.renderLineHighlight": "gutter",
   "workbench.statusBar.visible": true,
   "yaml.customTags": [
@@ -68,35 +59,15 @@
   },
   "git.openRepositoryInParentFolders": "always",
   "files.autoSave": "afterDelay",
-  // "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    // "source.fixAll.eslint": "explicit",
-  },
   "[python]": {
-    // "editor.formatOnType": true,
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
-  // "[typescript]": {
-  //   "editor.defaultFormatter": "biomejs.biome",
-  //   "editor.formatOnSave": true,
-  //   "editor.codeActionsOnSave": {
-  //     "quickfix.biome": "explicit",
-  //     "source.organizeImports.biome": "explicit"
-  //   }
-  // },
-  "mssql.connections": [],
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  // "[typescriptreact]": {
-  //   "editor.defaultFormatter": "biomejs.biome",
-  //   "editor.formatOnSave": true,
-  //   "editor.codeActionsOnSave": {
-  //     "quickfix.biome": "explicit"
-  //   }
-  // },
   "[sql]": {
     "editor.defaultFormatter": "ms-mssql.mssql"
   },
+  "mssql.connections": [],
+  "javascript.updateImportsOnFileMove.enabled": "never",
   "mssql.objectExplorer.groupBySchema": false,
   "cmake.configureOnOpen": false,
   "git.autofetch": true,
@@ -109,9 +80,6 @@
     "editor.unicodeHighlight.ambiguousCharacters": false,
     "editor.unicodeHighlight.invisibleCharacters": false
   },
-  // "[javascript]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-  // },
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
@@ -150,6 +118,5 @@
   "editor.formatOnType": false,
   "githubPullRequests.createOnPublishBranch": "never",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "diffEditor.ignoreTrimWhitespace": false,
-
+  "diffEditor.ignoreTrimWhitespace": false
 }
